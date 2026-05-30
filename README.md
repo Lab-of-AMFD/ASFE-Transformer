@@ -81,23 +81,6 @@ You can install the main dependencies with:
 pip install torch numpy scikit-learn joblib matplotlib thop
 ```
 
-## Repository Structure
-
-A recommended repository structure is:
-
-```text
-ASFE-Transformer/
-├── ASFE_Transformer.py          # ASFE-Transformer model
-├── train.py                     # Training script
-├── test.py                      # Evaluation script
-├── noise_test.py                # Noise robustness evaluation script
-├── data/                        # Dataset folder
-├── ASFE_Transformer.png         # Model architecture figure
-├── Framework.png                # Overall diagnostic framework figure
-├── results/                     # Training and evaluation results
-├── requirements.txt
-└── README.md
-```
 
 ## Quick Start
 
